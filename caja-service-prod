@@ -1,0 +1,4 @@
+billetes: 1000, 500, 200, 100, 50, 20, 10, 5
+efectivo-maximo: 100.000
+server:
+  port: ${PORT:8885}

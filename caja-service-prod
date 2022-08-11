@@ -1,4 +1,4 @@
 server:
-  port: ${PORT:8885}
+  port: ${PORT:8889}
 billetes: 1000, 500, 200, 100, 50, 20, 10, 5
 efectivo-maximo: 100.000

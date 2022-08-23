@@ -17,6 +17,6 @@ spring:
 
 info:
   app:
-    name: games-service
-    description: Games Service created for Class 8
+    name: game-service
+    description: Game Service created for DH
     version: 1.0.0

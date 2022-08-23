@@ -1,1 +1,1 @@
-# spring-cloud-bancodh
+# spring-cloud-config

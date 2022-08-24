@@ -15,9 +15,12 @@ spring:
             - Path=/libraries/**
 management:
   endpoints:
+    gateway:
+      enabled: true
     web:
       exposure:
         include: gateway
+       
 info:
   app:
     name: gateway-service

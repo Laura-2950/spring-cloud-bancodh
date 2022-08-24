@@ -16,7 +16,7 @@ spring:
       ddl-auto: create-drop
   h2:
     console:
-    path: /h2-console
+      path: /h2-console
 
 info:
   app:

@@ -14,9 +14,10 @@ spring:
           predicates: #RReglas de análisis de una request
             - Path=/libraries/**
 management:
-  endpoints:
-    gateway:
+  info:
+    env:
       enabled: true
+  endpoints:
     web:
       exposure:
         include: gateway

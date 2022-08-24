@@ -17,7 +17,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,gateway
+        include: gateway
 info:
   app:
     name: gateway-service

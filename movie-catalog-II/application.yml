@@ -1,21 +1,22 @@
-primavera :
-  cremallera :
-    habilitado : verdadero
-    baseUrl : http://localhost:9411/zipkin
+spring:
+  zipkin:
+    enabled: true
+    baseUrl: http://zipkin:9411
     
 eureka :
     cliente :
       servicio-url :
         zona predeterminada : http://localhost:8761/eureka
       
-gestión :
-  puntos finales :
-    web :
-      exposición :
-        incluir : " * "
-  información :
-    env :
-      habilitado : verdadero
-  punto final :
-    información :
-      habilitado : verdadero
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  info:
+    env:
+      enabled: true
+  endpoint:
+    info:
+      enabled: true
+

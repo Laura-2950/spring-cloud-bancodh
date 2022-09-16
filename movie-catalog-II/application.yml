@@ -5,7 +5,7 @@ spring:
 eureka :
     cliente :
       servicio-url :
-        zona predeterminada : http://eureka:8761/eureka
+        zona predeterminada : http://eureka-server:8761/eureka
       
 management:
   endpoints:

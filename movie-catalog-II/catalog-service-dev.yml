@@ -3,7 +3,7 @@ server:
 
 spring:
   data:
-    mongodb:
+    mongodb_catalog:
       authentication-database: admin
       username: rootuser
       password: rootpass

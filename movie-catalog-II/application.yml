@@ -1,12 +1,8 @@
 spring:
   application:
     zipkin: http://zipkin:9411/zipkin
-    
-eureka :
-    cliente :
-      servicio-url :
-        zona predeterminada : http://eureka-server:8761/eureka
-      
+
+
 management:
   endpoints:
     web:

@@ -4,6 +4,7 @@ server:
 spring:
   jpa:
     hibernate:
+      dialect: org.hibernate.dialect.MySQLDialect
       ddl-auto: update
   datasource:
     url: jdbc:mysql://mysql:3306/tp_final

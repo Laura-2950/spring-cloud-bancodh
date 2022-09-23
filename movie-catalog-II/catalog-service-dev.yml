@@ -8,7 +8,7 @@ spring:
       username: rootuser
       password: rootpass
       database: tp_final
-      port: 27017
+      port: 27018
       host: mongodb_catalog
 
 resilience4j:

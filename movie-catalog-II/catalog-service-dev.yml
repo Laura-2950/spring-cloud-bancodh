@@ -7,7 +7,7 @@ spring:
       authentication-database: admin
       username: rootuser
       password: rootpass
-      database: tp_final
+      database: catalogs
       port: 27016
       host: mongodb_catalog
 

@@ -4,12 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      authentication-database: admin
-      username: rootuser
-      password: rootpass
-      database: catalogs
-      port: 27016
-      host: mongodb_catalog
+      uri: mongodb-catalog://api_user:NdEep0XLpMNKUmgQVa81oDCx7mrSRodh0Z79qdX3@mongodb-catalog:27016/catalogs
 
 resilience4j:
   circuitbreaker:

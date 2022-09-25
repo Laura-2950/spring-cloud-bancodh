@@ -9,7 +9,7 @@ spring:
       password: rootpass
       database: catalog
       port: 27017
-      host: localhost
+      host: mongodb
 
 resilience4j:
   circuitbreaker:

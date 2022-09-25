@@ -6,7 +6,7 @@ spring:
     hibernate:
       dialect: org.hibernate.dialect.MySQLDialect
       ddl-auto: update
-  datasource:
+  dataSource:
     url: jdbc:mysql://mysql:3306/tp_final
     username: user
     password: pass

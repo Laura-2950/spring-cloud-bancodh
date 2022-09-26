@@ -3,6 +3,7 @@ server:
 
 spring:
   jpa:
+    defer-datasource-initialization: true
     hibernate:
       dialect: org.hibernate.dialect.MySQLDialect
       ddl-auto: update
@@ -13,6 +14,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   sql:
     init:
+      mode: always
       data-locations: classpath:movie.sql
 
 info:

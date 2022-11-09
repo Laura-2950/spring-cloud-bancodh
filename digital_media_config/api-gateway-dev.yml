@@ -1,0 +1,27 @@
+server:
+  port: 9090
+
+spring:
+  cloud:
+    gateway:
+      default-filters:
+        - TokenRelay
+      routes:
+        - id: usersRoute
+          uri: lb://users-service
+          predicates:
+            - Path=/users/**
+          filters:
+            - StripPrefix=0
+        - id: moviesRoute
+          uri: lb://movies-service
+          predicates:
+            - Path=/movies/**
+          filters:
+            - StripPrefix=0
+
+info:
+  app:
+    name: ${spring.application.name}
+    version: 1.0.0
+    description: API Gateway
